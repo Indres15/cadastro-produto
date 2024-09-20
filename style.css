@@ -1,0 +1,121 @@
+/* Definindo a cor de fundo e o estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Estilo para o título */
+h1 {
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cadastro {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo do formulário */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Estilo dos labels */
+form label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+/* Estilo dos campos de input */
+form .form-control {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+/* Estilo do botão */
+form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Estilos para a tabela de produtos */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+input[type='text'], input[type='number'] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: none;
+    background-color: transparent;
+}
+
+/* input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-top: 8px;
+    margin-bottom: 10px;
+} */
+
+button {
+    padding: 8px 12px;
+    border: none;
+    color: white;
+    background-color: #007bff;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button[name='action'][value='delete'] {
+    background-color: #dc3545;
+}
+
+button[name='action'][value='delete']:hover {
+    background-color: #c82333;
+}
+
+
+
